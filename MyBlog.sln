@@ -5,6 +5,14 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazorserver", "Blazorserver\Blazorserver.csproj", "{CEB366F0-520B-4418-99AA-9B64435D96BE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlazorWebAssembly", "BlazorWebAssembly", "{3F19B8B1-896C-47C2-A475-801F6EC46B03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebAssembly.Client", "BlazorWebAssembly\Client\BlazorWebAssembly.Client.csproj", "{F7B0655B-72CB-4EF6-8BFF-166221A05353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebAssembly.Server", "BlazorWebAssembly\Server\BlazorWebAssembly.Server.csproj", "{86FB0063-00DB-41AD-BA34-332DB937EA9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebAssembly.Shared", "BlazorWebAssembly\Shared\BlazorWebAssembly.Shared.csproj", "{75745A08-F9DC-4137-B8B6-C64BCCAA28B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +26,22 @@ Global
 		{CEB366F0-520B-4418-99AA-9B64435D96BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEB366F0-520B-4418-99AA-9B64435D96BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEB366F0-520B-4418-99AA-9B64435D96BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B0655B-72CB-4EF6-8BFF-166221A05353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B0655B-72CB-4EF6-8BFF-166221A05353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B0655B-72CB-4EF6-8BFF-166221A05353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B0655B-72CB-4EF6-8BFF-166221A05353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86FB0063-00DB-41AD-BA34-332DB937EA9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86FB0063-00DB-41AD-BA34-332DB937EA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86FB0063-00DB-41AD-BA34-332DB937EA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86FB0063-00DB-41AD-BA34-332DB937EA9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75745A08-F9DC-4137-B8B6-C64BCCAA28B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75745A08-F9DC-4137-B8B6-C64BCCAA28B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75745A08-F9DC-4137-B8B6-C64BCCAA28B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75745A08-F9DC-4137-B8B6-C64BCCAA28B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7B0655B-72CB-4EF6-8BFF-166221A05353} = {3F19B8B1-896C-47C2-A475-801F6EC46B03}
+		{86FB0063-00DB-41AD-BA34-332DB937EA9A} = {3F19B8B1-896C-47C2-A475-801F6EC46B03}
+		{75745A08-F9DC-4137-B8B6-C64BCCAA28B3} = {3F19B8B1-896C-47C2-A475-801F6EC46B03}
 	EndGlobalSection
 EndGlobal
